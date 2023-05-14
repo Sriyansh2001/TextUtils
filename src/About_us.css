@@ -1,0 +1,23 @@
+.header{
+    text-align: center;
+}
+.skill {
+    border-style: solid;
+    padding: 4px;
+    border-radius: 20px;
+    background-color: rgb(213, 106, 106);
+}
+.link{
+    text-decoration: none;
+    color: red;
+}
+.box1{
+    padding: 20px;
+}
+.box2{
+    padding: 20px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+}

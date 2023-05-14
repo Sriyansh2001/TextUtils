@@ -1,0 +1,54 @@
+.nav{
+  display: block;
+  height: 50px;
+  align-items: center;
+  text-align: end;
+  background-color: gray;
+}
+
+
+.open{
+  display: block;
+}
+
+.close{
+  display: none;
+}
+
+.switcharea,.switchtextarea{
+  float:right;
+  margin: 15px;
+}
+
+.Close_btn {
+  border-radius: 15px;
+}
+
+.switch{
+  margin: 5px;
+}
+
+.list{
+  float: left;
+  padding: 15px;
+  border-radius: 2px;
+  border-color: white;
+}
+
+.item{
+  background-color: black;
+  margin: 10px;
+  padding: 5px 10px;
+  text-decoration: none;
+  border: solid 2px white;
+  border-radius: 20px;
+  color: white;
+}
+
+.item:hover {
+  background-color: rgb(165, 165, 165);
+}
+
+.select_option {
+  margin: 5px;
+}
