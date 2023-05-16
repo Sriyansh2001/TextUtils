@@ -90,8 +90,10 @@ select {
  
 .Hamburger {
   display: none;
+  width: 40px;
+  cursor: pointer;
 }
-/*
+
 @media(max-width:1050px) {
   .Hamburger {
     display: block;
@@ -99,8 +101,8 @@ select {
 
   .nav-menu {
     position: fixed;
-    left: -300%;
-    top: 70px;
+    /* left: -250%; */
+    top: 0px;
     gap: 0;
     flex-direction: column;
     background-color: grey;
@@ -109,6 +111,26 @@ select {
     transition: 0.3s;
   }
 
-  
+  .list {
+    display: none;
+  }
 
-} */
+  .switcharea .switchtextarea{
+    float:left;
+    margin: 12px;
+  }
+  
+  .dark_mode_class {
+    float:left;
+    margin: 17px;
+  }
+  
+  .dark_mode_class_text {
+    float: left;
+    margin: 16px 0px 0px 15px;
+    padding: 0px;
+  }
+  .nav-menu .active {
+    left: 0%;
+  }
+} 
